@@ -1,0 +1,131 @@
+body {
+	background: url('../icons/3.jpg') !important;
+	font-family: 'Abel', serif;
+}
+
+.ui-page {
+	background: transparent;
+}
+
+.ui-content {
+	background: transparent;
+}
+
+#logoHolder {
+	text-align: center;
+}
+
+#logoHolder {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 14px;
+	font-weight: normal !important
+}
+
+a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+/*#footer {bottom:0; position:absolute !important; top: auto !important; width:100%;}*/
+#header,#footer {
+	background-image: url(../icons/3.jpg) !important;
+	border: 0px #38a2d6 !important;
+}
+
+#left {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.ui-icon {
+	border: 2px #000000 !important;
+}
+
+#search,.ui-shadow-inset {
+	background-color: #fff !important;
+	color: #000 /*{a-bar-color}*/;
+}
+
+.ui-btn-text:hover {
+	background-color: #000000 !important;
+	color: red !important;
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+	padding-top: 40px !important;
+}
+
+.nav-glyphish-example .ui-btn .ui-icon {
+	width: 45px !important;
+	height: 35px !important;
+	margin-left: -24px !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-border-radius: none !important;
+	border-radius: none !important;
+}
+
+#info .ui-icon {
+	background-image: url(../icons/info.png);
+	background-position: center;
+}
+
+#form .ui-icon {
+	background-image: url(../icons/form.png);
+	background-position: center;
+}
+
+#obs .ui-icon {
+	background-image: url(../icons/chart.png);
+	background-position: center;
+}
+
+#rem .ui-icon {
+	background-image: url(../icons/rem.png);
+	background-position: center;
+}
+
+#abs .ui-icon {
+	background-image: url(../icons/abs.png);
+	background-position: center;
+}
+
+​
+
+#cen {
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/* /horizontal navigation or h_nav ----------------------------------------- */
+
+/* home ----------------------------------------- */
+.home_icons {
+	font-size: 16px;
+	height: 112px;
+	float: left;
+	/*padding-top: 14px;*/
+}
+
+.home_icons:hover {
+	border: 1px #38a2d6 !important;
+}
+
+.home_icons img {
+	padding-bottom: 8px;
+}
+
+.p10 {
+	width: 10%;
+	/*background-color:#999;*/
+}
+
+.p35 {
+	width: 35%;
+	text-align: center;
+	/*background-color:#666;*/
+}
+/* /home ----------------------------------------- */

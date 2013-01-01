@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Muzim</title>
+
+		<link rel="stylesheet" href="themes/muzima.min.css" />
+		<link rel="stylesheet" href="js/jquery.mobile.structure-1.2.0.min.css" />
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script src="js/jquery.mobile-1.2.0.min.js"></script>
+
+		<script src="js/muzima.js" type='text/javascript'></script>
+		<link rel="stylesheet" href="css/muzima.css" />
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+</head>
+
+<body>
+
+	<div data-role="page" id="login" data-theme="a" data-position="fixed">
+
+		<div data-role="header" id="header" data-theme="a" data-icon="home">
+			<div id="logoHolder">
+				<img alt="mUZIMA" src="icons/logo7.png" />
+			</div>
+
+		</div>
+		<!-- /header -->
+
+
+
+		<div data-role="content" data-theme="a">
+
+			<!--Login form start-->
+			<form id="login" action="" method="post" data-ajax="false"
+				rel="external">
+
+				<div data-role="fieldcontain" class="ui-hide-label">
+					<label for="username">Username:</label> <input type="text"
+						name="username" id="username" value="" placeholder="Username" />
+				</div>
+
+				<div data-role="fieldcontain" class="ui-hide-label">
+					<label for="password">Password:</label> <input type="password"
+						name="password" id="password" value="" placeholder="Password" />
+				</div>
+
+
+				<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+
+					<button class="ui-btn-hidden">Login</button>
+				</div>
+			</form>
+
+
+
+		</div>
+
+
+		<div data-role="footer" id="footer" data-theme="a"
+			data-position="fixed">
+			<div id="logoHolder">
+				<a href="help.html">Need Login help? </a> <br> By signing in,
+					you agree to mUZIMA's terms of service and privacy policy.<br>
+						&copy; 2012 mUZIMA. 
+			</div>
+		</div>
+		<!-- /footer -->
+
+	</div>
+</body>
+</html>
